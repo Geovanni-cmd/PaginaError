@@ -77,10 +77,9 @@ p {
     border-color: aquamarine;
     padding: 8px;
     color: white;
+    transition: background 0.3s;
 }   
-.boton:hover{
-    background-color: rgb(1, 1, 43);
-}
+
 
 .foot{
     margin-top: 5%;
@@ -91,4 +90,10 @@ p {
 a{
     text-decoration: none;
     color: black;
+}
+
+/*---Animaciones---*/
+
+.boton:hover{
+    background-color: rgb(1, 1, 43);
 }
