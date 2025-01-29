@@ -32,6 +32,10 @@ p {
     object-position: top;
     padding-right: 3%;
     border-radius: 50px;
+    transition:
+    opacity 2s,
+    width 1s,
+    height 1s;
 }
 
 .contImagen{
@@ -97,3 +101,15 @@ a{
 .boton:hover{
     background-color: rgb(1, 1, 43);
 }
+
+.element:hover {
+    background: black;
+    width: 150px;
+    height: 150px;
+  }
+
+@starting-style {
+    .imagen {
+      opacity: 0;
+    }
+  }
